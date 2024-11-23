@@ -13,10 +13,10 @@ export class ContactEntity {
   email: string;
 
   @Column({ type: 'varchar', nullable: false })
-  number: string;
+  phone: string;
 
-  @Column({ type: 'text', array: true, nullable: true })
-  location: string[];
+  @Column('float', { array: true, nullable: true })
+  location: number[];
 
   @Column({ type: 'varchar', nullable: true })
   photo: string;

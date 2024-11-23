@@ -1,8 +1,11 @@
+.env
+.history/
+.history
 # compiled output
 /dist
 /node_modules
 /build
-
+/.history
 # Logs
 logs
 *.log
